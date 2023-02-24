@@ -4,17 +4,28 @@ import styles from './Home.module.css';
 function Home() {
     return (
         <div className={styles.container}>
-            <div className={styles.hero}>
-                <h1 className={styles.title}>Horse-Drawn Carriage Services</h1>
+            <div className={styles.top}>
+                <h1 className={styles.top_title}>Horse-Drawn Carriage Services</h1>
             </div>
-            <div>
-                
+            <div className={styles.about_container}>
+                <h2 className={styles.about_title}>Located in the beautiful countryside of Brandywine Maryland, we offer:</h2>
+                <div className={styles.about}>
+                <p className={styles.about_content}><i class="fa-solid fa-mountain"></i>Countryside Tours</p> 
+                <p className={styles.about_content}><i class="fa-solid fa-wine-glass"></i>Windery Stops</p>
+                <p className={styles.about_content}><i class="fa-solid fa-gifts"></i>Parties</p>
+                <p className={styles.about_content}><i class="fa-regular fa-heart"></i>Weddings</p>
+                <p className={styles.about_content}><i class="fa-solid fa-hand-holding-hand"></i>Proposals</p>
+                <p className={styles.about_content}><i class="fa-solid fa-pen-ruler"></i>Office Outings</p>
+                <p className={styles.about_content}><i class="fa-solid fa-people-pulling"></i>Prom</p>
+                <p className={styles.about_content}><i class="fa-solid fa-cake-candles"></i>Anniversaries</p>
+                <p className={styles.about_content}><i class="fa-solid fa-wand-magic-sparkles"></i>Celebrations of all Kinds</p>
+                </div>
             </div>
-            <p className={styles.content}>Countryside Tours and Winery stops in Brandywine, MD</p>
-            <p className={styles.content}>Event charters: parties, celebrations of all kinds</p>
             
+            <div className={styles.sale}>
+                <p className={styles.content}>Join Brandywine Carriage Tours as our beautiful team of Belgian Draft horses take you on a relaxing tour of the Brandywine, MD countryside. You’ll get to enjoy nature, relax, and learn as we teach you about this unique historic farming community and the Legacy Wine Trail! </p>
+            </div>
             
-            <p className={styles.content}>Join Brandywine Carriage Tours as our beautiful team of Belgian Draft horses take you on a relaxing tour of the Brandywine, MD countryside. You’ll get to enjoy nature, relax, and learn as we teach you about this unique historic farming community and the Legacy Wine Trail! </p>
             <img src="https://images.squarespace-cdn.com/content/v1/600dd33c276d9d4dbba3cc19/1623716080614-LELMG8CPXCT8EBP4M8QA/IMG_1153.JPG?format=1500w"></img>
             <p>Check out our “Our Tours” page for a full list and description of our tours.</p>
             <button>Our Tours</button>
