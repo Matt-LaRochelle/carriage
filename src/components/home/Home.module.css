@@ -41,6 +41,8 @@
     flex-direction: row;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    margin-top: 80px;
+    margin-bottom: 80px;
 }
 
 .about_content {
@@ -63,4 +65,27 @@
     padding: 40px;
     text-align: center;
     color: #FAECD6;
+}
+
+.final_container {
+    background-color: #4E6C50;
+    height: 500px;
+    width: 100%;
+}
+
+.final_content {
+    font-size: 2rem;
+    padding: 40px;
+    text-align: center;
+    color: #FAECD6;
+}
+
+.final_icons {
+    text-align: center;
+}
+.final_icons i {
+    font-size: 2rem;
+    padding: 40px;
+    color: #FAECD6;
+
 }
