@@ -30,6 +30,7 @@ function Home() {
                 <p className={styles.sale_content}>Join Brandywine Carriage Tours as our beautiful team of Belgian Draft horses take you on a relaxing tour of the Maryland Brandywine countryside. You’ll get to enjoy nature, relax, and learn as we teach you about this unique historic farming community and the Legacy Wine Trail! </p>
                 <p className={styles.sale_content}>Call or email to discuss availability and rates!</p>
             </div>
+            <h2 className={styles.about_title}>Gallery</h2>
             <swiper-container slides-per-view="3">
                 <swiper-slide><Card image="https://images.squarespace-cdn.com/content/v1/600dd33c276d9d4dbba3cc19/a672b353-dbb2-41ad-a089-2f1267991717/D779D5D7-7735-45D4-ACDE-FF73955E616A.jpeg?format=1500w" /></swiper-slide>
                 <swiper-slide><Card image="https://images.squarespace-cdn.com/content/v1/600dd33c276d9d4dbba3cc19/1632331259712-BOXYU8LPQIJV5ULA67Z8/IMG_1614.JPG?format=2500w" /></swiper-slide>

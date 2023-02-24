@@ -1,0 +1,38 @@
+.container {
+    height: 200px;
+    width: 100%;
+    /* background: linear-gradient(#9e4848, #820000); */
+    /* background: linear-gradient(rgb(39, 38, 38), rgb(19, 18, 18)); */
+    background: linear-gradient(#F2DEBA, #e8c482);
+    display: flex;
+}
+
+.location {
+    width: 50%;
+    font-size: 1.4rem;
+    /* color: #FAECD6; */
+    color: #473C33;
+    line-height: 2rem;
+    padding: 30px;
+    text-align: center;
+}
+
+.address {
+    margin-top: 20px;
+}
+
+.contact {
+    width: 50%;
+    font-size: 1.4rem;
+    /* color: #FAECD6; */
+    color: #473C33;
+    line-height: 2rem;
+    padding: 30px;
+    text-align: end;
+}
+
+@media screen and (max-width: 1000px) {
+    .container {
+        height: 400px;
+    }
+}

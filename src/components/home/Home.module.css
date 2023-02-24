@@ -31,9 +31,10 @@
 }
 
 .about_title {
-    margin-top: 100px;
+    margin-top: 50px;
     margin-bottom: 40px;
     font-size: 2rem;
+    text-align: center;
 }
 
 .about {
