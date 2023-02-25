@@ -31,14 +31,16 @@ function Home() {
                 <p className={styles.sale_content}>Call or email to discuss availability and rates!</p>
             </div>
             <h2 className={styles.about_title}>Gallery</h2>
-            <swiper-container slides-per-view="3">
+            <swiper-container slides-per-view="3" navigation="true">
                 <swiper-slide><Card image="https://images.squarespace-cdn.com/content/v1/600dd33c276d9d4dbba3cc19/a672b353-dbb2-41ad-a089-2f1267991717/D779D5D7-7735-45D4-ACDE-FF73955E616A.jpeg?format=1500w" /></swiper-slide>
                 <swiper-slide><Card image="https://images.squarespace-cdn.com/content/v1/600dd33c276d9d4dbba3cc19/1632331259712-BOXYU8LPQIJV5ULA67Z8/IMG_1614.JPG?format=2500w" /></swiper-slide>
                 <swiper-slide><Card image="https://images.squarespace-cdn.com/content/v1/600dd33c276d9d4dbba3cc19/1623716080614-LELMG8CPXCT8EBP4M8QA/IMG_1153.JPG?format=1500w" /></swiper-slide>
                 <swiper-slide><Card image="https://images.squarespace-cdn.com/content/v1/600dd33c276d9d4dbba3cc19/1632332189343-WN9NEZAGSG2MUN2AV8XR/IMG_1635.JPG?format=2500w" /></swiper-slide>
                 <swiper-slide><Card image={Horse} /></swiper-slide>
             </swiper-container>
+            <div className={styles.space}>
 
+            </div>
             <div className={styles.final_container}>
             <p className={styles.final_content}>See our recommended links page for more things to do and services offered in the Southern Maryland region!
                     To make a reservation or purchase a gift certificate, please click on our “Book Now” button. </p>

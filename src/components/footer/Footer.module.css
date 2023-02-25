@@ -1,5 +1,4 @@
 .container {
-    height: 200px;
     width: 100%;
     /* background: linear-gradient(#9e4848, #820000); */
     /* background: linear-gradient(rgb(39, 38, 38), rgb(19, 18, 18)); */
@@ -21,6 +20,10 @@
     margin-top: 20px;
 }
 
+.request {
+    font-style: italic;
+    margin-top: 20px;
+}
 .contact {
     width: 50%;
     font-size: 1.4rem;
@@ -31,8 +34,19 @@
     text-align: end;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 800px) {
+    .location {
+        width: 100%;
+    }
+
+    .contact {
+        width: 100%;
+        text-align: center;
+        font-size: 1.2rem;
+        padding-bottom: 10px;
+    }
+
     .container {
-        height: 400px;
+        flex-direction: column;
     }
 }

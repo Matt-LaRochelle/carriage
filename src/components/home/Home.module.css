@@ -55,10 +55,15 @@
     padding: 20px;
 }
 
+.space {
+    height: 50px;
+}
+
 .sale {
     background-color: #4E6C50;
-    height: 400px;
     width: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
 .sale_content {
@@ -70,7 +75,9 @@
 
 .final_container {
     background-color: #4E6C50;
-    height: 500px;
+    display: flex;
+    flex-direction: column;
+
     width: 100%;
 }
 
@@ -84,9 +91,24 @@
 .final_icons {
     text-align: center;
 }
+
 .final_icons i {
     font-size: 2rem;
-    padding: 40px;
+    padding: 20px 100px;
     color: #FAECD6;
-
 }
+
+.final_icons i:hover {
+    font-size: 2.3rem;
+    color: #820000;
+}
+
+/* @media screen and (max-width: 1000px) {
+    .sale {
+        height: 600px;
+    }
+    
+    .final_container {
+        height: 800px;
+    }
+} */
