@@ -18,7 +18,7 @@ function Home() {
                     <p className={styles.about_content}><i class="fa-solid fa-mountain"></i>Countryside Tours</p> 
                     <p className={styles.about_content}><i class="fa-solid fa-wine-glass"></i>Windery Stops</p>
                     <p className={styles.about_content}><i class="fa-solid fa-gifts"></i>Parties</p>
-                    <p className={styles.about_content}><i class="fa-regular fa-heart"></i>Weddings</p>
+                    <p className={styles.about_content}><i class="fa-solid fa-heart"></i>Weddings</p>
                     <p className={styles.about_content}><i class="fa-solid fa-hand-holding-hand"></i>Proposals</p>
                     <p className={styles.about_content}><i class="fa-solid fa-pen-ruler"></i>Office Outings</p>
                     <p className={styles.about_content}><i class="fa-solid fa-people-pulling"></i>Prom</p>

@@ -99,8 +99,9 @@
 }
 
 .final_icons i:hover {
-    font-size: 2.3rem;
+    font-size: 3rem;
     color: #820000;
+    cursor: pointer;
 }
 
 /* @media screen and (max-width: 1000px) {
