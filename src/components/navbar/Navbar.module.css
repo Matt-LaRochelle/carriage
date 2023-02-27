@@ -40,13 +40,15 @@
 }
 
 .navbar a {
-    font-size: 2rem;
-    color:antiquewhite;
+    font-size: 1.2rem;
+    color:#FAECD6;
+    font-style: none;
+    text-decoration: none;
 }
 
 .navbar a:hover {
-    font-size: 2.3rem;
-    color: rgba(250, 235, 215, 0.716)
+    /* font-size: 1.5rem; */
+    color: #0f8216;;
 }
 
 .mobile_btn {

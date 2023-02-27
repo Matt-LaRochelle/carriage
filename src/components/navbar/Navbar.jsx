@@ -16,10 +16,10 @@ function Navbar() {
       <nav>
         <ul className={nav ? [styles.menu, styles.active].join(' ') : [styles.menu]}>
           <li>
-            Home
+            <Link to="/">Home</Link>
           </li>
           <li>
-            About Us
+            <Link to="about">About Us</Link>
           </li>
           <li>
             Our Tours
