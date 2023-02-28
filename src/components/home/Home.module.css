@@ -77,6 +77,8 @@
     width: 600px;
     height: 600px;
     padding: 50px;
+    display: flex;
+    margin-bottom: 30px;
   }
   
   .swiperslide {
@@ -87,14 +89,27 @@
     box-shadow: rgba(0,0,0,0.9) 0px 8px 24px;
     border-radius: 10px;
   }
+
+  /* .swiperslide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden
+  } */
   
   .swiperslide img {
     display: block;
     width: 100%;
     height: 100%;
-    background-size: cover;
+    object-fit: cover;
     border-radius: 10px;
   }
+/* 
+  .swiperslide img {
+    flex-shrink: 60%;
+    min-width: 100%;
+    min-height: 100%
+  } */
 
 .final_container {
     background-color: #4E6C50;
