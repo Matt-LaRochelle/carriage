@@ -31,7 +31,7 @@ function Navbar() {
             <Link to="contact">Contact Us</Link>
           </li>
           <li>
-            Watkins Regional Park Winter Festival of Lights
+            <Link to="lights">Watkins Regional Park Winter Festival of Lights</Link>
           </li>
           <li>
             Weddings and Other Events

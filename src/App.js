@@ -6,6 +6,7 @@ import About from './components/about/About';
 import Tours from './components/tours/Tours';
 import Horses from './components/horses/Horses';
 import Contact from './components/contact/Contact';
+import Lights from './components/lights/Lights';
 import Footer from './components/footer/Footer';
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 
@@ -21,6 +22,7 @@ function App() {
           <Route path="tours" element={<Tours />} />
           <Route path="horses" element={<Horses />} />
           <Route path="contact" element={<Contact />} />
+          <Route path="lights" element={<Lights />} />
         </Routes>
         <Footer />
       </div>
