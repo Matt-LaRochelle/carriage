@@ -34,10 +34,10 @@ function Navbar() {
             <Link to="lights">Watkins Regional Park Winter Festival of Lights</Link>
           </li>
           <li>
-            Weddings and Other Events
+            <Link to="events">Weddings and Other Events</Link>
           </li>
           <li>
-            You've Booked a Tour: Now What?
+            <Link to="now_what">You've Booked a Tour: Now What?</Link>
           </li>
           <li>
             Links

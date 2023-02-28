@@ -1,0 +1,56 @@
+.top {
+    background: url('https://images.squarespace-cdn.com/content/v1/600dd33c276d9d4dbba3cc19/cb1ef544-618b-4f79-a85f-f42f32356ff6/FBB2CF51-C203-4AFC-B952-6AC882FC8BF8.jpeg?format=2500w') no-repeat center/cover;
+    display: flex;
+    width: 100%;
+    height: 500px;
+}
+
+.top_title {
+    width: 50%;
+    background-color:#faecd6d6;
+    border-radius: 25px;
+    box-shadow: rgba(0,0,0,0.9) 0px 8px 24px;
+    max-width: 300px;
+    width: 100%;
+    margin: auto;
+    margin-top: 4%;
+    padding: 6px 15px;
+    text-align: center;
+}
+
+.tan {
+    font-size: 2rem;
+    padding: 40px;
+    text-align: center;
+    color: #473C33;
+    background-color:#faecd6d6;
+}
+
+.tan h3, p {
+    margin-bottom: 30px;
+}
+
+.tan img {
+    border-radius: 10px;
+    height: 400px;
+    width: auto;
+    margin-bottom: 30px;
+}
+
+.green {
+    background-color: #4E6C50;
+    width: 100%;
+    font-size: 2rem;
+    padding: 40px;
+    text-align: center;
+    color: #FAECD6;
+}
+
+.green img {
+    height: 500px;
+    width: auto;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+
