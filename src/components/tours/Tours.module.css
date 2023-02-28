@@ -1,0 +1,22 @@
+
+.top {
+    background: url('https://images.squarespace-cdn.com/content/v1/600dd33c276d9d4dbba3cc19/1632336107819-N6CSBBBVGEWJXCT8C8TC/20210417_160631.jpg?format=2500w') no-repeat center/cover;
+    display: flex;
+    width: 100%;
+    height: 500px;
+}
+
+.top_title {
+    width: 20%;
+    background-color:#faecd6d6;
+    border-radius: 25px;
+    box-shadow: rgba(0,0,0,0.9) 0px 8px 24px;
+    max-width: 230px;
+    width: 100%;
+    margin: auto;
+    margin-top: 4%;
+    padding: 6px 15px;
+    text-align: center;
+}
+
+

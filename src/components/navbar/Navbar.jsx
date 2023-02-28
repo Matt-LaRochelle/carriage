@@ -22,7 +22,7 @@ function Navbar() {
             <Link to="about">About Us</Link>
           </li>
           <li>
-            Our Tours
+            <Link to="tours">Our Tours</Link>
           </li>
           <li>
             Our Horses HORSES
