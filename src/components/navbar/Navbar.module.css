@@ -67,6 +67,7 @@
 
     .image {
         margin: auto;
+        margin-top: -6px;
     }
 
     .menu {
