@@ -9,6 +9,7 @@ import Contact from './components/contact/Contact';
 import Lights from './components/lights/Lights';
 import Events from './components/events/Events';
 import Now_what from './components/now_what/Now_what';
+import Links from './components/links/Links';
 import Footer from './components/footer/Footer';
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 
@@ -27,6 +28,7 @@ function App() {
           <Route path="events" element={<Events />} />
           <Route path="lights" element={<Lights />} />
           <Route path="now_what" element={<Now_what />} />
+          <Route path="links" element={<Links />} />
         </Routes>
         <Footer />
       </div>

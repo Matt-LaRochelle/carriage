@@ -40,7 +40,7 @@ function Navbar() {
             <Link to="now_what">You've Booked a Tour: Now What?</Link>
           </li>
           <li>
-            Links
+            <Link to="links">Links</Link>
           </li>
         </ul>
       </nav>
