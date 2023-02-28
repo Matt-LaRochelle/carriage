@@ -25,10 +25,10 @@ function Navbar() {
             <Link to="tours">Our Tours</Link>
           </li>
           <li>
-            Our Horses
+            <Link to="horses">Our Horses</Link>
           </li>
           <li>
-            Contact Us
+            <Link to="contact">Contact Us</Link>
           </li>
           <li>
             Watkins Regional Park Winter Festival of Lights
