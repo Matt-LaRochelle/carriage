@@ -2,10 +2,16 @@ import React from 'react';
 import styles from './Home.module.css';
 import Card from '../card/Card';
 import Horse from '../../images/Horses.png'
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { EffectFlip, Pagination, Navigation } from "swiper";
+import 'swiper/css';
+import "swiper/css/effect-flip";
+import "swiper/css/pagination";
+import "swiper/css/navigation";
 // import function to register Swiper custom elements
-import { register } from 'swiper/element/bundle';
+// import { register } from 'swiper/element/bundle';
 // register Swiper custom elements
-register();
+// register();
 
 function Home() {
     return (
@@ -31,13 +37,20 @@ function Home() {
                 <p className={styles.sale_content}>Call or email to discuss availability and rates!</p>
             </div>
             <h2 className={styles.about_title}>Gallery</h2>
-            <swiper-container slides-per-view="3" spaceBetween={50} navigation="true" centered-slides="true">
-                <swiper-slide><Card image="https://images.squarespace-cdn.com/content/v1/600dd33c276d9d4dbba3cc19/a672b353-dbb2-41ad-a089-2f1267991717/D779D5D7-7735-45D4-ACDE-FF73955E616A.jpeg?format=1500w" /></swiper-slide>
-                <swiper-slide><Card image="https://images.squarespace-cdn.com/content/v1/600dd33c276d9d4dbba3cc19/1632331259712-BOXYU8LPQIJV5ULA67Z8/IMG_1614.JPG?format=2500w" /></swiper-slide>
-                <swiper-slide><Card image="https://images.squarespace-cdn.com/content/v1/600dd33c276d9d4dbba3cc19/1623716080614-LELMG8CPXCT8EBP4M8QA/IMG_1153.JPG?format=1500w" /></swiper-slide>
-                <swiper-slide><Card image="https://images.squarespace-cdn.com/content/v1/600dd33c276d9d4dbba3cc19/1632332189343-WN9NEZAGSG2MUN2AV8XR/IMG_1635.JPG?format=2500w" /></swiper-slide>
-                <swiper-slide><Card image={Horse} /></swiper-slide>
-            </swiper-container>
+            <Swiper 
+                effect={"flip"}
+                grabCursor={true}
+                pagination={true}
+                navigation={true}
+                modules={[EffectFlip, Pagination, Navigation]}
+                className={styles.mySwiper}
+                >
+                <SwiperSlide className={styles.swiperslide}><img src="https://images.squarespace-cdn.com/content/v1/600dd33c276d9d4dbba3cc19/a672b353-dbb2-41ad-a089-2f1267991717/D779D5D7-7735-45D4-ACDE-FF73955E616A.jpeg?format=1500w" /></SwiperSlide>
+                <SwiperSlide className={styles.swiperslide}><img src="https://images.squarespace-cdn.com/content/v1/600dd33c276d9d4dbba3cc19/1632331259712-BOXYU8LPQIJV5ULA67Z8/IMG_1614.JPG?format=2500w" /></SwiperSlide>
+                <SwiperSlide className={styles.swiperslide}><img src="https://images.squarespace-cdn.com/content/v1/600dd33c276d9d4dbba3cc19/1623716080614-LELMG8CPXCT8EBP4M8QA/IMG_1153.JPG?format=1500w" /></SwiperSlide>
+                <SwiperSlide className={styles.swiperslide}><img src="https://images.squarespace-cdn.com/content/v1/600dd33c276d9d4dbba3cc19/1632332189343-WN9NEZAGSG2MUN2AV8XR/IMG_1635.JPG?format=2500w" /></SwiperSlide>
+                <SwiperSlide className={styles.swiperslide}><img src={Horse} /></SwiperSlide>
+            </Swiper>
             <div className={styles.space}>
 
             </div>

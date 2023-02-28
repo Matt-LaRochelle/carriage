@@ -73,6 +73,29 @@
     color: #FAECD6;
 }
 
+.mySwiper {
+    width: 600px;
+    height: 600px;
+    padding: 50px;
+  }
+  
+  .swiperslide {
+    background-position: center;
+    background-size: cover;
+    width: 600px;
+    height: 600px;
+    box-shadow: rgba(0,0,0,0.9) 0px 8px 24px;
+    border-radius: 10px;
+  }
+  
+  .swiperslide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    border-radius: 10px;
+  }
+
 .final_container {
     background-color: #4E6C50;
     display: flex;
