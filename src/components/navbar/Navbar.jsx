@@ -25,7 +25,7 @@ function Navbar() {
             Our Tours
           </li>
           <li>
-            Our Horses
+            Our Horses HORSES
           </li>
           <li>
             Contact Us
