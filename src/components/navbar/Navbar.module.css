@@ -72,6 +72,7 @@
 
     .menu {
         display: flex;
+        flex-wrap: nowrap;
         flex-direction: column;
         justify-content: center;
         text-align: center;
@@ -93,6 +94,10 @@
     }
 
     .navbar a {
-        font-size: 2rem;
+        font-size: 1.5rem;
+    }
+    
+    .navbar li {
+        font-size: 1.5rem;
     }
 }
