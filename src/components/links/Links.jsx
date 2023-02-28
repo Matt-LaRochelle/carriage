@@ -26,6 +26,7 @@ function Links() {
                 <p><strong>Wine concierge</strong> to Maryland’s finest wineries! Take a day trip to several offered regional wine tours. Perfect for large groups.</p>
                 <a href="https://acupuncturebykristen.com/">Acupuncture by Kristen - Animal Acupuncture</a>
                 <p>Kristin Harper - Certified and Licensed Animal Acupuncturist - Kristen works on all of our horses to keep them in tip top shape!</p>
+                <img src="https://images.squarespace-cdn.com/content/v1/600dd33c276d9d4dbba3cc19/1618867102486-919S86PO3E5Q0VGF9UJQ/165788672_1533508266819903_2010671814181616594_n.jpeg?format=1500w" />
             </div>
         </div>
     );
