@@ -40,6 +40,7 @@ function Home() {
             <Swiper 
                 effect={"flip"}
                 grabCursor={true}
+                loop={true}
                 pagination={true}
                 navigation={true}
                 modules={[EffectFlip, Pagination, Navigation]}
@@ -57,7 +58,7 @@ function Home() {
             <div className={styles.final_container}>
             <p className={styles.final_content}>See our recommended links page for more things to do and services offered in the Southern Maryland region!
                     To make a reservation or purchase a gift certificate, please click on our “Book Now” button. </p>
-                <p className={styles.final_icons}><i class="fa-brands fa-facebook"></i><i class="fa-brands fa-instagram"></i><i class="fa-solid fa-envelope"></i></p>
+                <p className={styles.final_icons}><a href="https://www.facebook.com/brandywinecarriagetours"><i class="fa-brands fa-facebook"></i></a><a href="https://www.instagram.com/brandywinecarriagetours/"><i class="fa-brands fa-instagram"></i></a><i class="fa-solid fa-envelope"></i></p>
                 <p className={styles.final_content}>Visit our social media to see behind the scenes and get updates about events!</p>
             </div>
         </div>

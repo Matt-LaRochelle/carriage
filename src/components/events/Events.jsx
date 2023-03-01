@@ -15,7 +15,7 @@ function Events() {
             <div className={styles.green}>
                 <h3>Make it stand out.</h3>
                 <p>We can decorate perfectly for any idea you may have! Choose from our two elegant and comfortable carriages to match your theme. </p>
-                <img src="https://images.squarespace-cdn.com/content/v1/600dd33c276d9d4dbba3cc19/1632334732515-LY64ADKLRX3X5UKB1T3K/IMG_1636.jpg?format=1500w" />
+                <img className={styles.img1}src="https://images.squarespace-cdn.com/content/v1/600dd33c276d9d4dbba3cc19/1632334732515-LY64ADKLRX3X5UKB1T3K/IMG_1636.jpg?format=1500w" />
             </div>
             <div className={styles.tan}>
                 <p>Our White Vis-a-Vis Carriage makes an elegant and classic choice for any event. </p>
@@ -25,7 +25,7 @@ function Events() {
             </div>
             <div className={styles.green}>
                 <p>Our Wagonette provides a lovely rustic feel, with leather seating for up to four passengers. Perfect for your farm style wedding, family reunion picnic, or western themed events!</p>
-                <img src="https://images.squarespace-cdn.com/content/v1/600dd33c276d9d4dbba3cc19/1632335287781-VT5270RHJW16R1FGRBF9/Melody_NordvikIMG_1913.JPG?format=1500w" />
+                <img className={styles.img2}src="https://images.squarespace-cdn.com/content/v1/600dd33c276d9d4dbba3cc19/1632335287781-VT5270RHJW16R1FGRBF9/Melody_NordvikIMG_1913.JPG?format=1500w" />
                 <p>Just give us a call or an email, and we’ll discuss availability and our charter rates. </p>
             </div>
         </div>

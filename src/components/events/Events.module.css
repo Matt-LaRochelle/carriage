@@ -32,8 +32,8 @@
 
 .tan img {
     border-radius: 10px;
-    height: 400px;
-    width: auto;
+    height: auto;
+    width: 70%;
     margin-bottom: 30px;
 }
 
@@ -46,11 +46,29 @@
     color: #FAECD6;
 }
 
-.green img {
-    height: 500px;
-    width: auto;
+.img1 {
+    height: auto;
+    width: 30%;  
     border-radius: 10px;
     margin-bottom: 30px;
+}
+
+.green p {
+    color: #FAECD6;
+}
+
+.img2 {
+    height: auto;
+    width: 80%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+@media screen and (max-width: 850px) {
+    .img1 {
+        height: auto;
+        width: 50%;
+    }
 }
 
 
