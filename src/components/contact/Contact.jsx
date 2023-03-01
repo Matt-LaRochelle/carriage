@@ -10,11 +10,16 @@ function Contact() {
             <div className={styles.tan}>
                 <h3>Please feel free to contact us with any questions!</h3>
                 <form>
-                    <input type="text" placeholder="First Name"></input>
-                    <input type="text" placeholder="Last Name"></input>
-                    <input type="text" placeholder="Email"></input>
-                    <input type="text" placeholder="Subject"></input>
-                    <input type="text" placeholder="Message"></input>
+                    <div className={styles.name}>
+                        <input type="text" placeholder="First Name"></input>
+                        <input type="text" placeholder="Last Name"></input>
+                    </div>
+                    <div className={styles.content}>
+                        <input type="email" placeholder="Email"></input>
+                        <input type="text" placeholder="Subject"></input>
+                    </div>
+                    <input type="text" placeholder="Message" className={styles.message}></input>
+                    <br></br>
                     <button type="submit">Submit</button>
                 </form>
             </div>
