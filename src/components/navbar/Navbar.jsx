@@ -16,31 +16,31 @@ function Navbar() {
       <nav>
         <ul className={nav ? [styles.menu, styles.active].join(' ') : [styles.menu]}>
           <li>
-            <Link to="/">Home</Link>
+            <Link to="/" onClick={()=> setNav(!nav)}>Home</Link>
           </li>
           <li>
-            <Link to="about">About Us</Link>
+            <Link to="about" onClick={()=> setNav(!nav)}>About Us</Link>
           </li>
           <li>
-            <Link to="tours">Our Tours</Link>
+            <Link to="tours" onClick={()=> setNav(!nav)}>Our Tours</Link>
           </li>
           <li>
-            <Link to="horses">Our Horses</Link>
+            <Link to="horses" onClick={()=> setNav(!nav)}>Our Horses</Link>
           </li>
           <li>
-            <Link to="contact">Contact Us</Link>
+            <Link to="contact" onClick={()=> setNav(!nav)}>Contact Us</Link>
           </li>
           <li>
-            <Link to="lights">Watkins Regional Park Winter Festival of Lights</Link>
+            <Link to="lights" onClick={()=> setNav(!nav)}>Watkins Regional Park Winter Festival of Lights</Link>
           </li>
           <li>
-            <Link to="events">Weddings and Other Events</Link>
+            <Link to="events" onClick={()=> setNav(!nav)}>Weddings and Other Events</Link>
           </li>
           <li>
-            <Link to="now_what">You've Booked a Tour: Now What?</Link>
+            <Link to="now_what" onClick={()=> setNav(!nav)}>You've Booked a Tour: Now What?</Link>
           </li>
           <li>
-            <Link to="links">Links</Link>
+            <Link to="links" onClick={()=> setNav(!nav)}>Links</Link>
           </li>
         </ul>
       </nav>
