@@ -28,6 +28,10 @@
     font-size: 2rem;
 }
 
+.green p{
+    color: #FAECD6;
+}
+
 .tan {
     background-color:#faecd6d6;
     padding: 40px;
@@ -59,9 +63,11 @@
     display: flex;
 }
 
+
 .green_2_content {
     margin-top: 40px;
     margin-left: 60px;
+    color: #FAECD6
 }
 
 .image_2_bg {
