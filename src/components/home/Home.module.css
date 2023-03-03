@@ -102,15 +102,20 @@
     background-color: #4E6C50;
     display: flex;
     flex-direction: column;
-
     width: 100%;
 }
 
 .final_content {
     font-size: 2rem;
-    padding: 40px;
+    padding-bottom: 40px;
     text-align: center;
     color: #FAECD6;
+}
+
+.button {
+    width: 200px;
+    margin: auto;
+    margin-bottom: 40px;
 }
 
 .final_icons {

@@ -66,7 +66,7 @@
 }
 
 button {
-    background: linear-gradient(#10d010, #06570c);
+    background: linear-gradient(#9e4848, #820000);
     height: 80px;
     width: auto;
     font-size: 2rem;
@@ -78,7 +78,7 @@ button {
 }
 
 button:hover {
-    background: linear-gradient(#60e860, #348d3b);
+    background: linear-gradient(#d87171, #a20a0a);
     cursor: pointer;
 }
 

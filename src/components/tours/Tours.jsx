@@ -28,6 +28,7 @@ function Tours() {
             <div className={styles.tan_2}>
                 <p className={styles.tan_2_content}>WE OFFER PRIVATE TOURS  ON OUR LUXURIOUS VIS-À-VIS CARRIAGE. PUT TOGETHER YOUR CUSTOM TOUR PACKAGE FROM THE SELECTIONS BELOW. </p>
                 <p className={styles.tan_2_content}>* Now Offering Gift Certificates! Purchase a Gift Experience They’ll Never Forget. *</p>
+                <button className={styles.button} type="submit">Book Now</button>
             </div>
         </div>
     );
