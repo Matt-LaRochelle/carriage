@@ -52,3 +52,10 @@
     height: 500px;
     width: auto;
 }
+
+@media screen and (max-width: 500px) {
+    .tan img {
+        width: 300px;
+        height: auto;
+    }
+}

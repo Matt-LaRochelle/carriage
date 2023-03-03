@@ -86,5 +86,21 @@ button:hover {
     transitiony: 2px;
 } */
 
+@media screen and (max-width: 700px) {
+    .name {
+        flex-direction: column;
+        width: 100%;
+        justify-content: space-evenly;
+        margin-bottom: 0px;
+    }
+
+    .name input {
+        padding: 10px;
+        margin-bottom: 30px;
+        width: 73.33333%;
+        margin: 0 auto 30px;
+    }
+}
+
 
 
