@@ -15,7 +15,7 @@ function Now_what() {
                 <p>Outside alcohol is <strong>NOT PERMITTED</strong> at the wineries per Maryland State Law. </p>
                 <p>Outside food is discouraged, (there are food trucks frequently available at the wineries), but a SMALL personal cooler is permitted. </p>
                 <p><strong>Tipping your driver is appreciated. </strong></p>
-                <p>Please feel free to reach out to us at <strong>919-270-6547</strong> for any further questions, or email us at <strong>brandywinecarraigetours@gmail.com</strong></p>
+                <p>Please feel free to reach out to us at <strong>919-270-6547</strong> for any further questions, or email us at <span className={styles.email}><strong>brandywinecarraigetours@gmail.com</strong></span></p>
                 <p><strong>Haag Family Farm - 15311 Baden Naylor rd, Brandywine, MD 20613</strong></p>
                 <img src="https://images.squarespace-cdn.com/content/v1/600dd33c276d9d4dbba3cc19/1623790178846-HUG6VW8TI3FPEOA9EAQE/Jess+DJ+pic.jpeg?format=1500w" />
             </div>
