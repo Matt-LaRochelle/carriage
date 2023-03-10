@@ -31,7 +31,7 @@ function Contact() {
                         <input type="email" placeholder="Email" name="email"></input>
                         <input type="text" placeholder="Subject" name="subject"></input>
                     </div>
-                    <input type="text" placeholder="Message" className={styles.message} name="message"></input>
+                    <textarea rows="8" cols="80" placeholder="Message" className={styles.message} name="message"></textarea>
                     <br></br>
                     <button type="submit">Submit</button>
                 </form>
