@@ -14,6 +14,8 @@ import Footer from './components/footer/Footer';
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 
 
+// This is the original version of Shoshana's website, if we are ever curious.
+
 function App() {
   return (
     <BrowserRouter>
