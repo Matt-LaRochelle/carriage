@@ -9,6 +9,8 @@ import {AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
 function Navbar() {
 
   const [nav, setNav] = useState(false);
+  const [dd1, setDD1] = useState(false);
+  const [dd2, setDD2] = useState(false);
 
   return (
     <header className={styles.navbar}>
@@ -42,6 +44,22 @@ function Navbar() {
           <li>
             <Link to="links" onClick={()=> setNav(!nav)}>Links</Link>
           </li>
+          <li onClick={()=> setDD1(!dd1)}>
+            About us!
+            {dd1 && <div className={styles.dd}><Link to="about" onClick={()=> setNav(!nav)}>About Us</Link>
+            <Link to="horses" onClick={()=> setNav(!nav)}>Our Horses</Link>
+            </div>}
+          </li>
+          <li onClick={()=> setDD2(!dd2)}>
+            Tours!
+            {dd2 && <div className={styles.dd}><Link to="tours" onClick={()=> setNav(!nav)}>Our Tours</Link>
+            <Link to="lights" onClick={()=> setNav(!nav)}>Watkins Regional Park Winter Festival of Lights</Link>
+            <Link to="events" onClick={()=> setNav(!nav)}>Weddings and Other Events</Link>
+            <Link to="now_what" onClick={()=> setNav(!nav)}>You've Booked a Tour: Now What?</Link>
+            <Link to="links" onClick={()=> setNav(!nav)}>Links</Link>
+            </div>}
+          </li>
+
         </ul>
       </nav>
       <div onClick={()=> setNav(!nav)} className={styles.mobile_btn}>
