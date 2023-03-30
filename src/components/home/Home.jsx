@@ -20,9 +20,10 @@ function Home() {
                 <h1 className={styles.top_title}>Horse-Drawn Carriage Services</h1>
             </div>
             <div className={styles.about_container}>
+            <h1>Our services are great for:</h1>
                 <div className={styles.about}>
                     <p className={styles.about_content}><i class="fa-solid fa-mountain"></i>Countryside Tours</p> 
-                    <p className={styles.about_content}><i class="fa-solid fa-wine-glass"></i>Windery Stops</p>
+                    <p className={styles.about_content}><i class="fa-solid fa-wine-glass"></i>Winery Stops</p>
                     <p className={styles.about_content}><i class="fa-solid fa-gifts"></i>Parties</p>
                     <p className={styles.about_content}><i class="fa-solid fa-heart"></i>Weddings</p>
                     <p className={styles.about_content}><i class="fa-solid fa-hand-holding-hand"></i>Proposals</p>
@@ -33,7 +34,7 @@ function Home() {
                 </div>
             </div>
             <div className={styles.sale}>
-                <p className={styles.sale_content}>Join Brandywine Carriage Tours as our beautiful team of Belgian Draft horses take you on a relaxing tour of the Maryland Brandywine countryside. You’ll get to enjoy nature, relax, and learn as we teach you about this unique historic farming community and the Legacy Wine Trail! </p>
+                <p className={styles.sale_content}>Join Brandywine Carriage Tours as our team of beautiful horses take you on a relaxing tour of the Maryland Brandywine countryside. You’ll get to enjoy nature, relax, and learn as we teach you about this unique historic farming community and the Legacy Wine Trail! </p>
                 <p className={styles.sale_content}>Call or email to discuss availability and rates!</p>
             </div>
             <h2 className={styles.about_title}>Gallery</h2>

@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import { Link } from 'react-router-dom';
 import styles from './Navbar.module.css';
 import logo from '../../images/brandywine_logo.png'
-import {AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
+import {AiOutlineMenu, AiOutlineClose, AiOutlineArrowDown } from 'react-icons/ai';
 
 
 
@@ -20,44 +20,28 @@ function Navbar() {
           <li>
             <Link to="/" onClick={()=> setNav(!nav)}>Home</Link>
           </li>
-          <li>
-            <Link to="about" onClick={()=> setNav(!nav)}>About Us</Link>
+          <li className={styles.li_dropdown} onClick={()=> setDD1(!dd1)}>
+            About Us <AiOutlineArrowDown className={styles.arrow} />
+            {dd1 && <div className={styles.dd1}>
+              <Link className={styles.dd_item1} to="about" onClick={()=> setNav(!nav)}>Our Farm</Link>
+              <Link className={styles.dd_item} to="horses" onClick={()=> setNav(!nav)}>Our Horses</Link>
+            </div>}
           </li>
-          <li>
-            <Link to="tours" onClick={()=> setNav(!nav)}>Our Tours</Link>
-          </li>
-          <li>
-            <Link to="horses" onClick={()=> setNav(!nav)}>Our Horses</Link>
+          <li className={styles.li_dropdown} onClick={()=> setDD2(!dd2)}>
+            Tours <AiOutlineArrowDown className={styles.arrow} />
+            {dd2 && <div className={styles.dd2}>
+              <Link className={styles.dd_item1} to="tours" onClick={()=> setNav(!nav)}>Our Tours</Link>
+              <Link className={styles.dd_item} to="lights" onClick={()=> setNav(!nav)}>Watkins Regional Park Winter Festival of Lights</Link>
+              <Link className={styles.dd_item} to="events" onClick={()=> setNav(!nav)}>Weddings and Other Events</Link>
+              <Link className={styles.dd_item} to="now_what" onClick={()=> setNav(!nav)}>You've Booked a Tour: Now What?</Link>
+              <Link className={styles.dd_item} to="links" onClick={()=> setNav(!nav)}>Links</Link>
+            </div>}
           </li>
           <li>
             <Link to="contact" onClick={()=> setNav(!nav)}>Contact Us</Link>
           </li>
           <li>
-            <Link to="lights" onClick={()=> setNav(!nav)}>Watkins Regional Park Winter Festival of Lights</Link>
-          </li>
-          <li>
-            <Link to="events" onClick={()=> setNav(!nav)}>Weddings and Other Events</Link>
-          </li>
-          <li>
-            <Link to="now_what" onClick={()=> setNav(!nav)}>You've Booked a Tour: Now What?</Link>
-          </li>
-          <li>
-            <Link to="links" onClick={()=> setNav(!nav)}>Links</Link>
-          </li>
-          <li onClick={()=> setDD1(!dd1)}>
-            About us!
-            {dd1 && <div className={styles.dd}><Link to="about" onClick={()=> setNav(!nav)}>About Us</Link>
-            <Link to="horses" onClick={()=> setNav(!nav)}>Our Horses</Link>
-            </div>}
-          </li>
-          <li onClick={()=> setDD2(!dd2)}>
-            Tours!
-            {dd2 && <div className={styles.dd}><Link to="tours" onClick={()=> setNav(!nav)}>Our Tours</Link>
-            <Link to="lights" onClick={()=> setNav(!nav)}>Watkins Regional Park Winter Festival of Lights</Link>
-            <Link to="events" onClick={()=> setNav(!nav)}>Weddings and Other Events</Link>
-            <Link to="now_what" onClick={()=> setNav(!nav)}>You've Booked a Tour: Now What?</Link>
-            <Link to="links" onClick={()=> setNav(!nav)}>Links</Link>
-            </div>}
+          <button type="submit" className={styles.button}>Book Now</button>
           </li>
 
         </ul>
