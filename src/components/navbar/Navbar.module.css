@@ -31,7 +31,12 @@
     /* font-family:Georgia, 'Times New Roman', Times, serif; */
     font-size: 1.2rem;
     color: #FAECD6;
-    list-style-type: none;  
+    list-style-type: none;
+    cursor: pointer;  
+}
+
+.menu li:hover {
+    color: #d8ad74;
 }
 
 .li_dropdown {
@@ -52,7 +57,7 @@
 
 .navbar a:hover {
     /* font-size: 1.5rem; */
-    color: #d8ad74;;
+    color: #d8ad74;
 }
 
 .mobile_btn {

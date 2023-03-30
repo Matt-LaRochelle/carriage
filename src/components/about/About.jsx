@@ -5,7 +5,7 @@ function About() {
     return (
         <div>
             <div className={styles.top}>
-                <h1 className={styles.top_title}>About Us</h1>
+                <h1 className={styles.top_title}>Our Farm</h1>
             </div>
             <div className={styles.green}>
                 <p>Brandywine Carriage Tours is the brainchild of Jonathan and Shoshana Haag. The Haags came to Brandywine, MD in late 2020 to establish their family farm. Upon moving in they discovered their proximity to some of the finest wineries in Maryland, including several on the Legacy Wine Trail; a collection of local wineries celebrating Maryland’s farming traditions and growing popularity as a premiere wine growing region.</p>    
